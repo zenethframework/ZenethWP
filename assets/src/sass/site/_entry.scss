@@ -1,0 +1,11 @@
+.entry-container {
+  padding: 30px;
+  background-color: #fff;
+  a {
+    color: #222;
+    &:hover {
+      color: #dc3545;
+      text-decoration: none;
+    }
+  }
+}

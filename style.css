@@ -11,6 +11,12 @@ Text Domain: zenethwp
 Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
 */
 
+body {
+  background-color: #eee !important;
+  font-size: 17px;
+  font-weight: 400;
+}
+
 .zenethwp-bg-default {
   background-color: #222;
 }
@@ -32,5 +38,59 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
   font-size: 17px;
   font-weight: 300;
   color: #fff;
+}
+
+.site-content {
+  margin-top: 30px;
+}
+
+.widget-container {
+  padding: 30px;
+  background-color: #fff;
+}
+
+.widget .widget-title {
+  font-size: 30px;
+}
+
+.widget ul {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.widget ul li {
+  position: relative;
+  display: block;
+  padding: 0.75rem 3px;
+  margin-bottom: -1px;
+  background-color: #fff;
+  border: none;
+}
+
+.widget ul li a {
+  color: #222;
+}
+
+.widget ul li a:hover,
+.widget ul li a:active,
+.widget ul li a:visited {
+  color: #dc3545;
+  text-decoration: none;
+}
+
+.entry-container {
+  padding: 30px;
+  background-color: #fff;
+}
+
+.entry-container a {
+  color: #222;
+}
+
+.entry-container a:hover {
+  color: #dc3545;
+  text-decoration: none;
 }
 

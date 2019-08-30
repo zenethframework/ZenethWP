@@ -23,27 +23,11 @@ require get_template_directory() . '/inc/Custom/Custom-comments.php';
 /**
  * Core theme includes
  */
-require get_template_directory() . '/inc/Core/Zeneth-WalkerNav.php';
 require get_template_directory() . '/inc/Core/Sidebar.php';
+require get_template_directory() . '/inc/Core/Theme-functions.php';
+require get_template_directory() . '/inc/Core/Zeneth-WalkerNav.php';
 
 /**
- * Custom template tags for this theme.
+ * Customizer theme includes
  */
-require get_template_directory() . '/inc/template-tags.php';
-
-/**
- * Functions which enhance the theme by hooking into WordPress.
- */
-require get_template_directory() . '/inc/template-functions.php';
-
-/**
- * Customizer additions.
- */
-require get_template_directory() . '/inc/customizer.php';
-
-/**
- * Load Jetpack compatibility file.
- */
-if ( defined( 'JETPACK__VERSION' ) ) {
-	require get_template_directory() . '/inc/Plugins/jetpack.php';
-}
+require get_template_directory() . '/inc/Api/Customizer/customizer.php';
