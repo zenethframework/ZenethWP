@@ -10,3 +10,27 @@ License URI: LICENSE
 Text Domain: zenethwp
 Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
 */
+
+.zenethwp-bg-default {
+  background-color: #222;
+}
+
+.site-branding .site-title {
+  color: #fff;
+}
+
+.site-branding .site-title a {
+  color: #fff;
+}
+
+.site-branding .site-title a:hover {
+  color: #dc3545;
+  text-decoration: none;
+}
+
+.site-branding .site-description {
+  font-size: 17px;
+  font-weight: 300;
+  color: #fff;
+}
+

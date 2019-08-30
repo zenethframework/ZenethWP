@@ -24,7 +24,7 @@ require get_template_directory() . '/inc/Custom/Custom-comments.php';
  * Core theme includes
  */
 require get_template_directory() . '/inc/Core/Zeneth-WalkerNav.php';
-
+require get_template_directory() . '/inc/Core/Sidebar.php';
 
 /**
  * Custom template tags for this theme.
